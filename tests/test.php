@@ -1,9 +1,9 @@
 <?php
     require('../vendor/autoload.php');
 
-    use PabloSanches\hCaptcha;
+    use LojaVirtual\hCaptcha;
 
-    $hCaptcha = new hCaptcha('0x5E148e331a53cF9BDE83FDF33DfE5B60329CC447');
+    $hCaptcha = new hCaptcha('your-secret-key');
     if (!empty($_POST['test-me'])) {
         echo "hCaptcha response: {$_POST['h-captcha-response']} <br /><hr />";
         $hCaptchaResult = $hCaptcha->challenge($_POST['h-captcha-response']);

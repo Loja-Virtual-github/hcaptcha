@@ -1,6 +1,6 @@
 <?php
 
-namespace PabloSanches;
+namespace LojaVirtual;
 
 use Owl\Method as Http;
 

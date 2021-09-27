@@ -1,5 +1,5 @@
 {
-    "name": "pablosanches/hcaptcha",
+    "name": "lojavirtual/hcaptcha",
     "description": "A simple wrapper for hCaptcha",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PabloSanches\\": "src/"
+            "LojaVirtual\\": "src/"
         }
     }
 }

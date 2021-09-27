@@ -6,7 +6,7 @@
 
 1. Sign up at [hCaptcha](https://hCaptcha.com/?r=20737c4f354f).
 2. Fetch your public key and site key from the [settings](https://dashboard.hcaptcha.com/settings) tab.
-3. Get this package `composer require pablosanches/hcaptcha`
+3. Get this package `composer require lojavirtual/hcaptcha`
 4. Set up your **front end** as:
 
 ```html
@@ -29,7 +29,7 @@
 
 ```php
    require('../vendor/autoload.php');
-    use PabloSanches\hCaptcha;
+    use LojaVirtual\hCaptcha;
 
     $hCaptcha = new hCaptcha('your-secret-key');
     $hCaptchaResult = $hCaptcha->challenge($_POST['h-captcha-response']);
